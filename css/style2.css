@@ -1,0 +1,93 @@
+/* Header */
+#header {
+    background-color: #d4c9be;
+    height: auto;
+    text-align: center;
+    padding: 30px 20px 20px;
+    position: relative;
+}
+
+#button1, #button2, #button3 {
+    background-color: #123458;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+    background-color: rgba(114, 114, 114, 0.7);
+}
+
+/* Body */
+#body {
+    background-color: #123458;
+    min-height: 600px;
+    padding: 60px 20px;
+    color: white;
+}
+
+#text {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#accordion:hover {
+    background-color: #a7eaff;
+}
+
+#text2 {
+    background-color: white;
+    padding:20px;
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+#footer {
+    background-color: #d4c9be;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #button1, #button2, #button3 {
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+    }
+
+    #text {
+        margin-left: 0;
+    }
+
+    #body {
+        padding: 30px 15px;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+}
